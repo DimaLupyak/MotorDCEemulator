@@ -1,0 +1,44 @@
+﻿<Window x:Class="MotorDC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MotorDC"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="W"></Label>
+            <TextBox Text ="{Binding MotorDC.W, Mode=TwoWay}"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="P"></Label>
+            <TextBox Text ="{Binding MotorDC.P, Mode=TwoWay}"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="A"></Label>
+            <TextBox Text ="{Binding MotorDC.A, Mode=TwoWay}"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="U"></Label>
+            <TextBox Text ="{Binding MotorDC.U, Mode=TwoWay}"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Ia"></Label>
+            <Slider Value="{Binding MotorDC.Ia, Mode=TwoWay}" Width="200"></Slider>
+            <Label Content ="{Binding MotorDC.Ia}"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="M = "></Label>
+            <Label Content ="{Binding MotorDC.M}"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="n = "></Label>
+            <Label Content ="{Binding MotorDC.N}"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="ККД = "></Label>
+            <Label Content ="{Binding MotorDC.Efficiency}"></Label>
+        </StackPanel>
+    </StackPanel>
+</Window>

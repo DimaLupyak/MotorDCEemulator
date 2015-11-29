@@ -1,0 +1,5 @@
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDCModel\bin\Debug\MotorDCModel.dll
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDCModel\bin\Debug\MotorDCModel.pdb
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDCModel\obj\Debug\MotorDCModel.dll
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDCModel\obj\Debug\MotorDCModel.pdb
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDCModel\obj\Debug\MotorDCModel.csprojResolveAssemblyReference.cache
