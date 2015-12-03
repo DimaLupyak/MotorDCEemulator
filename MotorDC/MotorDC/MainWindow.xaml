@@ -29,6 +29,21 @@
             <Label Content ="{Binding MotorDC.Ia}"></Label>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
+            <Label Content="Ra"></Label>
+            <Slider Value="{Binding MotorDC.Ra, Mode=TwoWay}" Width="200"></Slider>
+            <Label Content ="{Binding MotorDC.Ra}"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Rz"></Label>
+            <Slider Value="{Binding MotorDC.Rz, Mode=TwoWay}" Width="200"></Slider>
+            <Label Content ="{Binding MotorDC.Rz}"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Rd"></Label>
+            <Slider Value="{Binding MotorDC.Rd, Mode=TwoWay}" Width="200"></Slider>
+            <Label Content ="{Binding MotorDC.Rd}"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
             <Label Content="M = "></Label>
             <Label Content ="{Binding MotorDC.M}"></Label>
         </StackPanel>
