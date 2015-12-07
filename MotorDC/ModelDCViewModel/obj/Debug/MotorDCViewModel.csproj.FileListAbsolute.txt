@@ -5,3 +5,4 @@ D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\ModelDCViewMode
 D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\ModelDCViewModel\obj\Debug\MotorDCViewModel.csprojResolveAssemblyReference.cache
 D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\ModelDCViewModel\obj\Debug\ModelDCViewModel.dll
 D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\ModelDCViewModel\obj\Debug\ModelDCViewModel.pdb
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\ModelDCViewModel\bin\Debug\System.Net.Http.dll

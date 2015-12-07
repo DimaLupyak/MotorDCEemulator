@@ -16,3 +16,12 @@ D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\obj\Deb
 D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\obj\Debug\MotorDC.csproj.GenerateResource.Cache
 D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\obj\Debug\MotorDC.exe
 D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\obj\Debug\MotorDC.pdb
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\bin\Debug\system.windows.controls.datavisualization.toolkit.dll
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\bin\Debug\WPFToolkit.dll
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\bin\Debug\system.windows.controls.datavisualization.toolkit.pdb
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\bin\Debug\WPFToolkit.pdb
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\bin\Debug\MotorDC.exe.manifest
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\bin\Debug\MotorDC.application
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\obj\Debug\MotorDC.exe.manifest
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\obj\Debug\MotorDC.application
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\bin\Debug\System.Net.Http.dll

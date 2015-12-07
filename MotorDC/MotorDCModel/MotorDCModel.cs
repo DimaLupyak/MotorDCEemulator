@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MotorDCModel
 {
@@ -11,6 +9,25 @@ namespace MotorDCModel
     {
         private int p, a, w;
         double u, ia, rd, ra, rz, c, m, n, p1, p2, efficiency;
+        public ObservableCollection<KeyValuePair<double, double>> LineM { get; set; }
+        public ObservableCollection<KeyValuePair<double, double>> LineN { get; set; }
+        public ObservableCollection<KeyValuePair<double, double>> CurrentPoints { get; set; }
+        private void updateLineN()
+        {
+            LineN.Clear();
+            for (double i = 0.1; i <= 3.2; i+=0.1)
+            {
+                LineN.Add(new KeyValuePair<double, double>(i, (u - (i * (rd + ra + rz))) / (c * 2 * i)));
+            }
+        }
+        private void updateLineM()
+        {
+            LineM.Clear();
+            for (double i = 0; i <= 3.2; i += 0.1)
+            {
+                LineM.Add(new KeyValuePair<double, double>(i, c * Math.Pow(i, 2)));
+            }
+        }
         #region Properties
         /// <summary>
         /// Число пар полюсів двигуна
@@ -62,6 +79,7 @@ namespace MotorDCModel
                 u = value;
                 N = (U - (Ia * (Rd + Ra + Rz))) / (C * 2 * Ia);
                 P1 = Ia * U;
+                updateLineN();
                 OnPropertyChanged("U");
             }
         }
@@ -75,8 +93,11 @@ namespace MotorDCModel
             {
                 ia = value;
                 N = (U - (Ia * (Rd + Ra + Rz))) / (C * 2 * Ia);
-                M = C * Math.Pow(Ia, 2);
+                M = C * Math.Pow(Ia, 2);                
                 P1 = Ia * U;
+                CurrentPoints.Clear();
+                CurrentPoints.Add(new KeyValuePair<double, double>(Ia, (u - (Ia * (rd + ra + rz))) / (c * 2 * Ia)));
+                CurrentPoints.Add(new KeyValuePair<double, double>(Ia, c * Math.Pow(Ia, 2)));
                 OnPropertyChanged("Ia");
             }
         }
@@ -90,6 +111,7 @@ namespace MotorDCModel
             {
                 rd = value;
                 N = (U - (Ia * (Rd + Ra + Rz))) / (C * 2 * Ia);
+                updateLineN();
                 OnPropertyChanged("Rd");
             }
         }
@@ -103,6 +125,7 @@ namespace MotorDCModel
             {
                 ra = value;
                 N = (U - (Ia * (Rd + Ra + Rz))) / (C * 2 * Ia);
+                updateLineN();
                 OnPropertyChanged("Ra");
             }
         }
@@ -116,6 +139,7 @@ namespace MotorDCModel
             {
                 rz = value;
                 N = (U - (Ia * (Rd + Ra + Rz))) / (C * 2 * Ia);
+                updateLineN();
                 OnPropertyChanged("Rz");
             }
         }
@@ -130,6 +154,8 @@ namespace MotorDCModel
                 c = value;
                 N = (U - (Ia * (Rd + Ra + Rz))) / (C * 2 * Ia);
                 M = C * Math.Pow(Ia,2);
+                updateLineN();
+                updateLineM();
                 OnPropertyChanged("C");
             }
         }
@@ -141,7 +167,7 @@ namespace MotorDCModel
             get { return m; }
             private set
             {
-                m = value;
+                m = value;                
                 P2 = N * M;
                 OnPropertyChanged("M");
             }
@@ -155,7 +181,7 @@ namespace MotorDCModel
             private set
             {
                 n = value;
-                P2 = N * M;
+                P2 = N * M;                
                 OnPropertyChanged("N");
             }
         }
@@ -201,6 +227,9 @@ namespace MotorDCModel
         #region Constructor
         private Motor()
         {
+            LineM = new ObservableCollection<KeyValuePair<double, double>>();
+            LineN = new ObservableCollection<KeyValuePair<double, double>>();
+            CurrentPoints = new ObservableCollection<KeyValuePair<double, double>>();
         }
         #endregion
         #region singleton
