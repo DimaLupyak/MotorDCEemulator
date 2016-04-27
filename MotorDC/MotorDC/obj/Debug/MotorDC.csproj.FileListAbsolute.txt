@@ -25,3 +25,26 @@ D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\bin\Deb
 D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\obj\Debug\MotorDC.exe.manifest
 D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\obj\Debug\MotorDC.application
 D:\Programming\VisualStudioProjects\Study tasks\DC Motor\MotorDC\MotorDC\bin\Debug\System.Net.Http.dll
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\bin\Debug\MotorDC.exe.config
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\obj\Debug\MotorDC.exe
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\obj\Debug\MotorDC.pdb
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\bin\Debug\MotorDC.exe.manifest
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\bin\Debug\MotorDC.application
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\bin\Debug\MotorDC.exe
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\bin\Debug\MotorDC.pdb
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\bin\Debug\System.Net.Http.dll
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\bin\Debug\system.windows.controls.datavisualization.toolkit.dll
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\bin\Debug\WPFToolkit.dll
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\bin\Debug\system.windows.controls.datavisualization.toolkit.pdb
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\bin\Debug\WPFToolkit.pdb
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\obj\Debug\App.g.cs
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\obj\Debug\MotorDC_MarkupCompile.cache
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\obj\Debug\MotorDC_MarkupCompile.lref
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\obj\Debug\MotorDC.g.resources
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\obj\Debug\MotorDC.Properties.Resources.resources
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\obj\Debug\MotorDC.csproj.GenerateResource.Cache
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\obj\Debug\MotorDC.exe.manifest
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\obj\Debug\MotorDC.application
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\obj\Debug\View\MainWindow.g.cs
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\obj\Debug\View\MainWindow.baml
+D:\Programming\VisualStudioProjects\Study tasks\DC Motor Portable\MotorDC\MotorDC\obj\Debug\MotorDC_Content.g.cs

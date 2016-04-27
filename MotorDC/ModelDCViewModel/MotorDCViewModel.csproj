@@ -44,12 +44,6 @@
     <Compile Include="MotorDCViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MotorDCModel\MotorDCModel.csproj">
-      <Project>{764240a3-93f0-47be-959f-b52ce0e3ad5a}</Project>
-      <Name>MotorDCModel</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
