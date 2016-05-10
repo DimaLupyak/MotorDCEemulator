@@ -12,9 +12,8 @@ namespace ModelDCViewModel
             MotorDC.A = 2;
             MotorDC.W = 126;
             MotorDC.U = 220;
-            MotorDC.Rd = 20;
-            MotorDC.Ra = 10;
-            MotorDC.Rz = 10;
+            MotorDC.Rd = 10;
+            MotorDC.Ra = 20;
             MotorDC.Ia = 0.5;
             MotorDC.F = 0.4;
         }

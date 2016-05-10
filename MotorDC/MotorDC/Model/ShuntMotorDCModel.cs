@@ -26,7 +26,7 @@
 
         protected override double CalculateN(double Ia)
         {
-            return (U - (Ia * (Rd + Ra + Rz))) / (C * F);
+            return (U - (Ia * (Rd + Ra))) / (C * F);
         }
     }
 }

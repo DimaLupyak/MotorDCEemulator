@@ -28,7 +28,7 @@ namespace MotorDCModel
 
         protected override double CalculateN(double Ia)
         {
-            return (U - (Ia * (Rd + Ra + Rz))) / (C * 2 * Ia);
+            return (U - (Ia * (Rd - Ra + Rz))) / (C * 2 * Ia);
         }
     }
 }
